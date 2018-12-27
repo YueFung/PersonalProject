@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E26BFC521D50BE80052FFCE /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26BFC321D50BE80052FFCE /* Slide.swift */; };
 		0EF66ED021D3931B00E37A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */; };
 		0EF66ED221D3931B00E37A2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ED121D3931B00E37A2D /* FirstViewController.swift */; };
 		0EF66ED421D3931B00E37A2D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ED321D3931B00E37A2D /* SecondViewController.swift */; };
 		0EF66ED721D3931B00E37A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF66ED521D3931B00E37A2D /* Main.storyboard */; };
 		0EF66ED921D3931C00E37A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF66ED821D3931C00E37A2D /* Assets.xcassets */; };
 		0EF66EDC21D3931C00E37A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EF66EDA21D3931C00E37A2D /* LaunchScreen.storyboard */; };
+		A5B233AED1CE3DC626FD2A01 /* Pods_PersonalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA5D7DACE04D079F6FD9A19 /* Pods_PersonalProject.framework */; };
+		E70C5FE421D3C88C0069881E /* breathing2.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FDD21D3C8850069881E /* breathing2.gif */; };
+		E70C5FE521D3C88C0069881E /* breathing7.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FDE21D3C8870069881E /* breathing7.gif */; };
+		E70C5FE621D3C88C0069881E /* breathing3.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FDF21D3C8870069881E /* breathing3.gif */; };
+		E70C5FE721D3C88C0069881E /* breathing1.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE021D3C8880069881E /* breathing1.gif */; };
+		E70C5FE821D3C88C0069881E /* breathing6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE121D3C8890069881E /* breathing6.gif */; };
+		E70C5FE921D3C88C0069881E /* breathing5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE221D3C88A0069881E /* breathing5.gif */; };
+		E70C5FEA21D3C88C0069881E /* breathing4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE321D3C88B0069881E /* breathing4.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E26BFC321D50BE80052FFCE /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Slide.swift; path = /Users/yuefunglee/Downloads/PersonalProject/PersonalProject/Slide.swift; sourceTree = "<absolute>"; };
+		0E26BFC421D50BE80052FFCE /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Slide.xib; path = /Users/yuefunglee/Downloads/PersonalProject/PersonalProject/Slide.xib; sourceTree = "<absolute>"; };
 		0EF66ECC21D3931B00E37A2D /* PersonalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF66ED121D3931B00E37A2D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,16 @@
 		0EF66ED821D3931C00E37A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EF66EDB21D3931C00E37A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EF66EDD21D3931C00E37A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FA5D7DACE04D079F6FD9A19 /* Pods_PersonalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58166EEAE09C82CA51637232 /* Pods-PersonalProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalProject/Pods-PersonalProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E70C5FDD21D3C8850069881E /* breathing2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing2.gif; sourceTree = "<group>"; };
+		E70C5FDE21D3C8870069881E /* breathing7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing7.gif; sourceTree = "<group>"; };
+		E70C5FDF21D3C8870069881E /* breathing3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing3.gif; sourceTree = "<group>"; };
+		E70C5FE021D3C8880069881E /* breathing1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing1.gif; sourceTree = "<group>"; };
+		E70C5FE121D3C8890069881E /* breathing6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing6.gif; sourceTree = "<group>"; };
+		E70C5FE221D3C88A0069881E /* breathing5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing5.gif; sourceTree = "<group>"; };
+		E70C5FE321D3C88B0069881E /* breathing4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing4.gif; sourceTree = "<group>"; };
+		EF3BFDDDD63D7841442B3CE7 /* Pods-PersonalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalProject/Pods-PersonalProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B233AED1CE3DC626FD2A01 /* Pods_PersonalProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +64,8 @@
 			children = (
 				0EF66ECE21D3931B00E37A2D /* PersonalProject */,
 				0EF66ECD21D3931B00E37A2D /* Products */,
+				C95688F0D28CEA74FED29842 /* Pods */,
+				94767E577D58FE5CB847B89E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,41 @@
 		0EF66ECE21D3931B00E37A2D /* PersonalProject */ = {
 			isa = PBXGroup;
 			children = (
+				0E26BFC321D50BE80052FFCE /* Slide.swift */,
+				0E26BFC421D50BE80052FFCE /* Slide.xib */,
 				0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */,
 				0EF66ED121D3931B00E37A2D /* FirstViewController.swift */,
 				0EF66ED321D3931B00E37A2D /* SecondViewController.swift */,
 				0EF66ED521D3931B00E37A2D /* Main.storyboard */,
 				0EF66ED821D3931C00E37A2D /* Assets.xcassets */,
 				0EF66EDA21D3931C00E37A2D /* LaunchScreen.storyboard */,
+				E70C5FE021D3C8880069881E /* breathing1.gif */,
+				E70C5FDD21D3C8850069881E /* breathing2.gif */,
+				E70C5FDF21D3C8870069881E /* breathing3.gif */,
+				E70C5FE321D3C88B0069881E /* breathing4.gif */,
+				E70C5FE221D3C88A0069881E /* breathing5.gif */,
+				E70C5FE121D3C8890069881E /* breathing6.gif */,
+				E70C5FDE21D3C8870069881E /* breathing7.gif */,
 				0EF66EDD21D3931C00E37A2D /* Info.plist */,
 			);
 			path = PersonalProject;
+			sourceTree = "<group>";
+		};
+		94767E577D58FE5CB847B89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FA5D7DACE04D079F6FD9A19 /* Pods_PersonalProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C95688F0D28CEA74FED29842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58166EEAE09C82CA51637232 /* Pods-PersonalProject.debug.xcconfig */,
+				EF3BFDDDD63D7841442B3CE7 /* Pods-PersonalProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EF66EE021D3931C00E37A2D /* Build configuration list for PBXNativeTarget "PersonalProject" */;
 			buildPhases = (
+				A53A36E81476824EBE113F79 /* [CP] Check Pods Manifest.lock */,
 				0EF66EC821D3931B00E37A2D /* Sources */,
 				0EF66EC921D3931B00E37A2D /* Frameworks */,
 				0EF66ECA21D3931B00E37A2D /* Resources */,
+				A81E4E98C847D717544DCF73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +177,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E70C5FE821D3C88C0069881E /* breathing6.gif in Resources */,
 				0EF66EDC21D3931C00E37A2D /* LaunchScreen.storyboard in Resources */,
+				E70C5FE921D3C88C0069881E /* breathing5.gif in Resources */,
 				0EF66ED921D3931C00E37A2D /* Assets.xcassets in Resources */,
+				E70C5FE521D3C88C0069881E /* breathing7.gif in Resources */,
+				E70C5FE621D3C88C0069881E /* breathing3.gif in Resources */,
+				E70C5FE421D3C88C0069881E /* breathing2.gif in Resources */,
+				E70C5FEA21D3C88C0069881E /* breathing4.gif in Resources */,
 				0EF66ED721D3931B00E37A2D /* Main.storyboard in Resources */,
+				E70C5FE721D3C88C0069881E /* breathing1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A53A36E81476824EBE113F79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PersonalProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A81E4E98C847D717544DCF73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PersonalProject/Pods-PersonalProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalProject/Pods-PersonalProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EF66EC821D3931B00E37A2D /* Sources */ = {
@@ -141,6 +247,7 @@
 				0EF66ED421D3931B00E37A2D /* SecondViewController.swift in Sources */,
 				0EF66ED021D3931B00E37A2D /* AppDelegate.swift in Sources */,
 				0EF66ED221D3931B00E37A2D /* FirstViewController.swift in Sources */,
+				0E26BFC521D50BE80052FFCE /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +391,7 @@
 		};
 		0EF66EE121D3931C00E37A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58166EEAE09C82CA51637232 /* Pods-PersonalProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +410,7 @@
 		};
 		0EF66EE221D3931C00E37A2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3BFDDDD63D7841442B3CE7 /* Pods-PersonalProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
