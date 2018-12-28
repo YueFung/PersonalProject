@@ -39,10 +39,6 @@ class FirstViewController: UIViewController, UIScrollViewDelegate {
             for i in 0 ..< slides.count {
                 slides[i].frame = CGRect(x: view.frame.width * CGFloat(i), y: 0, width: view.frame.width, height: view.frame.height)
                 scrollView.addSubview(slides[i])
-        
-
-        
-            
         //let gif = UIImage(gifName: "breathing1.gif")
         //let imageView = UIImageView(gifImage: gif, loopCount: -1)
         //self.image1.setGifImage(gif)
