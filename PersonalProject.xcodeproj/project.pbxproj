@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E26BFC521D50BE80052FFCE /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26BFC321D50BE80052FFCE /* Slide.swift */; };
 		0EF66ED021D3931B00E37A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */; };
 		0EF66ED221D3931B00E37A2D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ED121D3931B00E37A2D /* FirstViewController.swift */; };
 		0EF66ED421D3931B00E37A2D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF66ED321D3931B00E37A2D /* SecondViewController.swift */; };
@@ -22,11 +21,11 @@
 		E70C5FE821D3C88C0069881E /* breathing6.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE121D3C8890069881E /* breathing6.gif */; };
 		E70C5FE921D3C88C0069881E /* breathing5.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE221D3C88A0069881E /* breathing5.gif */; };
 		E70C5FEA21D3C88C0069881E /* breathing4.gif in Resources */ = {isa = PBXBuildFile; fileRef = E70C5FE321D3C88B0069881E /* breathing4.gif */; };
+		E7A2F84D21D6595000A8B8C4 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A2F84B21D6594F00A8B8C4 /* Slide.xib */; };
+		E7A2F84E21D6595000A8B8C4 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A2F84C21D6595000A8B8C4 /* Slide.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E26BFC321D50BE80052FFCE /* Slide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Slide.swift; path = /Users/yuefunglee/Downloads/PersonalProject/PersonalProject/Slide.swift; sourceTree = "<absolute>"; };
-		0E26BFC421D50BE80052FFCE /* Slide.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Slide.xib; path = /Users/yuefunglee/Downloads/PersonalProject/PersonalProject/Slide.xib; sourceTree = "<absolute>"; };
 		0EF66ECC21D3931B00E37A2D /* PersonalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EF66ED121D3931B00E37A2D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +43,8 @@
 		E70C5FE121D3C8890069881E /* breathing6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing6.gif; sourceTree = "<group>"; };
 		E70C5FE221D3C88A0069881E /* breathing5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing5.gif; sourceTree = "<group>"; };
 		E70C5FE321D3C88B0069881E /* breathing4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = breathing4.gif; sourceTree = "<group>"; };
+		E7A2F84B21D6594F00A8B8C4 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Slide.xib; path = ../../../Downloads/Archive/Slide.xib; sourceTree = "<group>"; };
+		E7A2F84C21D6595000A8B8C4 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slide.swift; path = ../../../Downloads/Archive/Slide.swift; sourceTree = "<group>"; };
 		EF3BFDDDD63D7841442B3CE7 /* Pods-PersonalProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalProject/Pods-PersonalProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +81,8 @@
 		0EF66ECE21D3931B00E37A2D /* PersonalProject */ = {
 			isa = PBXGroup;
 			children = (
-				0E26BFC321D50BE80052FFCE /* Slide.swift */,
-				0E26BFC421D50BE80052FFCE /* Slide.xib */,
+				E7A2F84C21D6595000A8B8C4 /* Slide.swift */,
+				E7A2F84B21D6594F00A8B8C4 /* Slide.xib */,
 				0EF66ECF21D3931B00E37A2D /* AppDelegate.swift */,
 				0EF66ED121D3931B00E37A2D /* FirstViewController.swift */,
 				0EF66ED321D3931B00E37A2D /* SecondViewController.swift */,
@@ -181,6 +182,7 @@
 				0EF66EDC21D3931C00E37A2D /* LaunchScreen.storyboard in Resources */,
 				E70C5FE921D3C88C0069881E /* breathing5.gif in Resources */,
 				0EF66ED921D3931C00E37A2D /* Assets.xcassets in Resources */,
+				E7A2F84D21D6595000A8B8C4 /* Slide.xib in Resources */,
 				E70C5FE521D3C88C0069881E /* breathing7.gif in Resources */,
 				E70C5FE621D3C88C0069881E /* breathing3.gif in Resources */,
 				E70C5FE421D3C88C0069881E /* breathing2.gif in Resources */,
@@ -247,7 +249,7 @@
 				0EF66ED421D3931B00E37A2D /* SecondViewController.swift in Sources */,
 				0EF66ED021D3931B00E37A2D /* AppDelegate.swift in Sources */,
 				0EF66ED221D3931B00E37A2D /* FirstViewController.swift in Sources */,
-				0E26BFC521D50BE80052FFCE /* Slide.swift in Sources */,
+				E7A2F84E21D6595000A8B8C4 /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
