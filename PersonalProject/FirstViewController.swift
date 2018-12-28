@@ -6,7 +6,7 @@
 //  Copyright © 2018 Yue Fung Lee. All rights reserved.
 //
 
-import UIKit
+import UIKit]
 import SwiftyGif
 
 class FirstViewController: UIViewController, UIScrollViewDelegate {
