@@ -41,7 +41,7 @@ class FirstViewController: UIViewController, UIScrollViewDelegate {
                 let slide1:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
                 slide1.imageView.image = UIImage(named: "breathing1")
                 slide1.labelTitle.text = "How Breathing Helps"
-                slide1.labelCreds.text = "Deep breathing increases the supply of oxygen to your brain and stimulates an autonomic nervous system, which promotes a calm and slows your heart rate."
+                slide1.labelTitle2.text = "Deep breathing increases the supply of oxygen to your brain and stimulates an autonomic nervous system, which promotes a calm and slows your heart rate."
                 slide1.labelCreds.text = "gif from destressmonday.org"
                 
                 let slide2:Slide = Bundle.main.loadNibNamed("Slide", owner: self, options: nil)?.first as! Slide
